@@ -1,0 +1,141 @@
+@media (max-width:1130px){
+    .mobile-menu li a{
+       
+        padding: .75rem;
+        font-size: .60rem;
+        font-weight: 600;
+    }
+    
+    .mobile-menu li a:hover{
+      border-radius: 15px;
+        font-weight: 600;
+    }
+    .absolute-div{
+       height: 70vh;
+    }
+
+    .absolute-div p{
+        font-size: .90rem;
+    }
+
+    .btn{
+      padding: 10px 20px;
+ }  
+}
+
+@media (max-width:860px){
+
+    .footer-container{
+        flex-direction: column;
+       }
+       .footer-container ul{
+           text-align: center;
+           padding: 1rem;
+       }
+  .nav-btn{
+      display: none;
+  }
+  .nav-container{
+      position: relative;
+  }
+  
+  .nav-container i{
+      display: block;
+  }
+  .mobile-menu{
+      position: absolute;
+      top: -500%;
+      left: 0;
+      height: 60vh;
+      flex-direction: column;
+      background: #ED7F0D;
+      width: 100%;
+      transition: all .3s ease;
+  }
+  .nav-container ul li a{
+   font-size: 1.5rem;
+   padding: 1.5rem;
+}
+
+ 
+ .mobile-menu li a:hover{
+    background: #fff;
+     color: #072E3F;
+}
+
+.show{
+   top: 90%;
+}
+.vanish{
+    display: block;
+}
+.appear{
+    display: block;
+}
+
+nav ul li:hover .absolute-div{
+    display: none;
+ }
+
+.absolute-div{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 90vh;
+    width: 100%;
+    padding: 1.5rem;
+    background: #ED7F0D;
+    color: #FFF;
+    transition: all .3s ease;
+    z-index: 1000;
+}
+
+
+}
+
+@media(max-width:1070px){
+    .overlay h2{
+        font-size: 1.25rem;
+        font-family: 700;
+        margin-bottom: .5rem;
+}
+
+.overlay p{
+    font-size: .75rem;
+    padding: .5rem;
+  
+}
+    
+}
+
+@media(max-width:600px){
+    .overlay h2{
+        font-size: .75rem;
+        font-family: 600;
+        margin-bottom: .35rem;
+}
+
+.overlay p{
+    font-size: .55rem;
+    padding: .35rem;
+    text-align: center;
+  
+}
+    
+}
+
+@media(max-width:420px){
+    .overlay h2{
+        font-size: .65rem;
+        font-family: 600;
+        margin-bottom: .35rem;
+}
+
+.overlay p{
+    font-size: .45rem;
+    padding: .35rem;
+    text-align: center;
+  
+}
+    
+}
