@@ -160,7 +160,7 @@
             <a href="#quote" class="btn nav-btn">Contact us</a>
         </div>
     </nav>
-    <header data-aos="fade-in" style="position: relative;
+    <header style="position: relative;
     background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('img/img-4.jpg') center no-repeat; background-size: cover;">
         <div class="container header-container">
             <h1>WHO ARE WE?</h1>
@@ -183,7 +183,7 @@
     </header>
     <main>
         <section class="container">
-            <div data-aos="fade-in" class="img-wrapper">
+            <div class="img-wrapper">
                 <div class="overlay">
                     <h2>Why SAIS</h2>
                     <p href="#">We make sure to give our consumers the best service possible. Giving our consumers a
@@ -201,7 +201,7 @@
                 <img src="img/header-bg-2.jpg" alt="#">
             </div>
 
-            <div data-aos="fade-in" class="img-wrapper">
+            <div class="img-wrapper">
                 <div class="overlay">
                     <h2>Our Vision</h2>
                     <p href="#">SAIS gas is determined to give clean and green LPG. With the global population forecast
@@ -216,7 +216,7 @@
                 </div>
                 <img src="img/img-1.jpg" alt="#">
             </div>
-            <div data-aos="fade-in" class="img-wrapper">
+            <div class="img-wrapper">
                 <div class="overlay">
                     <h2>Our Mission</h2>
                     <p href="#">We view our mission as ensuring a reliable, efficient, and balanced supply of liquefied
@@ -227,7 +227,7 @@
                 </div>
                 <img src="img/img-2.jpg" alt="#">
             </div>
-            <div data-aos="fade-in" class="img-wrapper">
+            <div class="img-wrapper">
                 <div class="overlay">
                     <h2>About Us</h2>
                     <p href="#">SAIS Gas is a certified Gas company. Which was established in Islamabad/Rawalpindi,
@@ -238,7 +238,7 @@
                 </div>
                 <img src="img/img-3.jpg" alt="#">
             </div>
-            <div data-aos="fade-in" class="img-wrapper">
+            <div class="img-wrapper">
                 <div class="overlay">
                     <h2>Franchise</h2>
                     <p href="#">We in SAIS Gas are looking for good franchise partners who can help us reach our vision.
@@ -252,7 +252,7 @@
             </div>
         </section>
     </main>
-    <section data-aos="fade-in" class="quote" id="quote" style=" background: url(header-bg.jpg) center no-repeat;
+    <section class="quote" id="quote" style=" background: url(header-bg.jpg) center no-repeat;
      background-size: cover;">
         <div class="background">
             <div class="container">
@@ -347,7 +347,10 @@
         <i class="fas fa-arrow-up scrollup__icon"></i>
     </a>
 
-    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script>
         const burger = document.querySelector('.burger-menu')
         const list = document.querySelector('.mobile-menu')
